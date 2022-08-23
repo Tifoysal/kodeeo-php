@@ -1,8 +1,8 @@
 <?php
 $txt = "Hello world!";
-$x = 5;
-$z = 10.5;
-echo $x+$z;
+$x = 9;
+$y = 41;
+echo $x+$y;
 
 //here i learn variable
 
