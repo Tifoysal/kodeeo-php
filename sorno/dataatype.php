@@ -1,6 +1,6 @@
 <?php
-$x = "Hello world!";
-$y = 'This is my practice';
+$x = "Hello Bangladesh";
+$y = 'This is my practice area';
 // Double qoutes and single are same.
 
 echo $x;
