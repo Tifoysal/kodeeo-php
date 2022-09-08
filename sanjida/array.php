@@ -36,11 +36,13 @@ $model=array(
     array("Redmi","10pro" ,25000),
     array("Vivo","17s" ,15000)
 );
-for($serial=0; $serial<1;$serial++){
-    echo "Mobile model and price<br>";
-    for($col=0; $col<1;$col++){
-        echo .$model[$serial][$col].;
+for($row=0; $row<2;$row++){
+    echo "Mobile model and price$row<br>";
+    echo "<ul>";
+    for($col=0; $col<3;$col++){
+        echo "<li>".$model[$row][$col]."</li>";
     }
+    echo "</ul>";
 
 }
 ?>

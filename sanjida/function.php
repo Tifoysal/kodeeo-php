@@ -25,15 +25,15 @@ name_age("Ayesha",5);
 name_age("Zoha",4);
 echo "<br><br>";
 
-function sum(int $a,int $b){
+function sum( $a, $b){
     return  $a+$b;
 }
-echo sum(2,"3year");
+echo sum(2,3);
 echo "<br><br>";
 
 // default argument
 function name($name="Zoha"){
-    echo "Her name is $name";
+    echo "Her name is $name <br>";
 }
 name("Ayesha");
 name();
